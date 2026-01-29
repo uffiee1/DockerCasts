@@ -1,5 +1,5 @@
 # Use an existing docker image as a base
-FROM alpine
+FROM alpine:3.23.3
 
 # Download and install a dependency
 RUN apk add --update gcc
